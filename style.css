@@ -1,0 +1,196 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding: 5px 0;
+	/*border-bottom: 3px solid #EEF0F3;*/
+}
+
+.container {
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 10%;
+	margin-top: 15px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.logo img{
+		width: 100%;
+}
+
+.menu {
+	margin-top: 3px;
+	width: 45%;
+	/*border: 1px solid red;*/
+	float: right;
+
+}
+
+.menu ul{
+	float: right;
+	overflow: hidden;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+
+}
+.menu ul li a{ 
+	text-decoration: none; 
+	margin: 20px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: grey;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px;
+
+}
+.container2{
+	width: 55%;
+	margin: 0 auto;
+	/*border: 2px solid blue;*/
+}
+.b_content{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.b_content h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #0F2656;
+}
+.b_content h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #008AFF;
+}
+.b_content p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+	line-height: 23px;
+	word-spacing: 1px;
+}
+.b_image {
+	width: 75%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+
+/*banner end*/
+/*success start*/
+
+.success{
+		padding: 60px 0;
+}
+.s_content{
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.s_left{
+	width: 40%;
+	/*border: 1px solid;*/
+	float: left;
+	text-align: right;
+	padding: 0 10px 0 20px;
+}
+.s_left h2{
+	font-size: 42px;
+	font-weight: 700;
+	color: tomato;
+	margin: 0 0 10px;
+}
+.s_left p{
+	font-size: 17px;
+	font-weight: 400;
+	color: #0F2656;
+	margin: 0;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+
+.s_right{
+	width: 50%;
+	/*border: 1px solid;*/
+	float: right;
+	padding: 0 20px 0 10px;
+}
+
+.s_right p{
+	width: 50%;
+	/*border: 1px solid;*/
+	float: right;
+}
+
+.s_right h1{
+		font-size: 42px;
+		font-weight: 700;
+		color: #0F2656;
+		line-height: 50px;
+		margin: 0;
+}
+
+
+/*success end*/
+
+/*feature start*/
+.feature{}
+.f_content{
+	overflow: hidden;
+}
+.f_single{
+	width: 28%;
+	/*border: 1px solid;*/
+	font-family: sans-serif;
+	color: #0F2656;
+	padding: 30px 24px 50px;
+	float: left;
+	margin-right: 22px;
+}
+
+.f_single: last-child{
+	margin-right: 0;
+}
+.pink{
+	     background-color: #FDEBED;
+}
+.green{
+		background-color: #EBF9F4;
+}
+.yellow{
+	    background-color: lightyellow;
+}
+.f-img{}
+.f_img img{
+	width: 100%;
+}
+.f_single h2{
+	font-size: 22px;
+	font-weight: 700;
+	margin: 20px 0;
+}
+.f_single p{
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+/*feature end*/
